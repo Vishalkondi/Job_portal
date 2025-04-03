@@ -1,0 +1,35 @@
+/* Container Styling */
+.container {
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  /* Job Card Styling */
+  .job-card {
+    background: #f8f9fa; /* Light Grey Background */
+    border-left: 6px solid #007bff; /* Blue Accent Border */
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .job-card:hover {
+    transform: scale(1.03);
+    background: #ffffff; /* White on Hover */
+  }
+  
+  /* Job Title */
+  .job-card h3 {
+    color: #007bff; /* Primary Blue */
+  }
+  
+  /* Icons */
+  .job-card i {
+    color: #6c757d; /* Muted Grey */
+    margin-right: 8px;
+  }
+  
+  /* Centered No Jobs Message */
+  .text-center {
+    font-weight: bold;
+    color: #6c757d;
+  }
+  

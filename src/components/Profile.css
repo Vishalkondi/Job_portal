@@ -1,0 +1,69 @@
+/* Background Styling */
+.profile-container {
+    background: url("https://source.unsplash.com/1600x900/?office,workspace") no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Profile Card */
+  .profile-card {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 450px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    animation: fadeIn 0.8s ease-in-out;
+  }
+  
+  /* Profile Image */
+  .profile-image-container {
+    margin-bottom: 15px;
+  }
+  
+  .profile-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #007bff;
+    transition: transform 0.3s ease;
+  }
+  
+  .profile-image:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Input Fields */
+  .input-group {
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .input-group-text {
+    background-color: #007bff;
+    color: white;
+    border: none;
+  }
+  
+  /* Save Button */
+  .btn {
+    transition: all 0.3s ease;
+  }
+  
+  .btn:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Animation */
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  /* Import Font Awesome */
+  @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css');
+  
