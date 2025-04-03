@@ -6,7 +6,8 @@ This is a React-based Job Portal application that allows users to browse job lis
 
 Here is a preview of the **Post a Job** page in the Job Portal application:
 
-![Post a Job Page](https://raw.githubusercontent.com/your-username/your-repo/main/assets/images/Screenshot%20(60).png)
+![Post a Job Page](https://raw.githubusercontent.com/your-username/your-repo/main/assets/images/![Uploading Screenshot (60).png…]()
+)
 
 ## Features
 - **Responsive Navigation Bar**: Built with Material-UI's AppBar and Toolbar.
