@@ -6,7 +6,7 @@ This is a React-based Job Portal application that allows users to browse job lis
 
 Here is a preview of the **Post a Job** page in the Job Portal application:
 
-![Post a Job Page] ![Screenshot](https://github.com/your-username/your-repo/assets/your-image.png)
+![Post a Job Page] ![Uploading Screenshot (60).png…]()
 
 
 ## Features
