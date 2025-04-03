@@ -30,23 +30,25 @@ Ensure you have Node.js and npm installed on your system.
 
 ### Steps to Run the Application
 1. **Clone the Repository**:
-   ```sh
+   
+sh
    git clone https://github.com/your-repo/job-portal.git
    cd job-portal
-   ```
+
 2. **Install Dependencies**:
-   ```sh
+   
+sh
    npm install
-   ```
+
 3. **Start the Development Server**:
-   ```sh
+   
+sh
    npm start
-   ```
+
 4. **Access the Application**:
    Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## Project Structure
-```
 job-portal/
 │── src/
 │   ├── components/
@@ -60,18 +62,18 @@ job-portal/
 │── public/
 │── package.json
 │── README.md
-```
+
 
 ## Available Routes
 | Route          | Component    | Description |
 |---------------|-------------|-------------|
-| `/`           | Home        | Displays the home page |
-| `/profile`    | Profile     | User profile page |
-| `/post-job`   | PostJob     | Form for posting jobs |
-| `/jobs`       | JobListings | Lists available jobs |
+| /           | Home        | Displays the home page |
+| /profile    | Profile     | User profile page |
+| /post-job   | PostJob     | Form for posting jobs |
+| /jobs       | JobListings | Lists available jobs |
 
 ## Custom Styling
-The application uses a mix of Material-UI components and custom CSS (located in `App.css`) to enhance UI/UX.
+The application uses a mix of Material-UI components and custom CSS (located in App.css) to enhance UI/UX.
 
 ## Future Enhancements
 - Add authentication and user roles
