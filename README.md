@@ -4,9 +4,13 @@
 This is a React-based Job Portal application that allows users to browse job listings, post jobs, and manage their profiles. The application utilizes React Router for navigation and Material-UI for styling, ensuring a responsive and user-friendly interface.
 ## Job Portal - Post a Job Page
 
+## Job Portal - Post a Job Page
+
 Here is a preview of the **Post a Job** page in the Job Portal application:
 
-![Post a Job Page] ![Uploading Screenshot (60).png…]()
+![Post a Job Page](assets/post-job-screenshot.png)
+
+(*Make sure the image is placed inside the `assets/` directory in your project.*)
 
 
 ## Features
